@@ -30,15 +30,15 @@ nav a{
 .main-content-container input{
 	width: 35%;
 	height: 35px;
-	border-radius: 15px;
+	border-radius: 25px;
 	border-style: solid;
 	border-color: silver;
 	border-width: 1px;
-	padding: 15px;
+	padding: 5px 25px;
 }
 
 .main-content-container button{
-	background-color: #D3D3D9;
+	background-color: #f2f2f2;
 	color: grey;
 	border-width: 1px;
 	border-radius: 3px;
@@ -51,7 +51,7 @@ nav a{
 .main-content-container button:hover{
 	border-radius: 3px;
 	border-style: solid;
-	border-color: black;
+	border-color: lightgrey;
 	border-width: 1px;
 	color: black;
 	font-family: sans-serif;
@@ -68,7 +68,7 @@ nav a{
 }
 
 footer {
-	background-color: lightgrey;
+	background-color: #f2f2f2;
 	padding: 0 5px;
 	color: grey;
 }
