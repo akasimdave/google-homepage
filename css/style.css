@@ -1,0 +1,83 @@
+body{
+	font-family: sans-serif;
+}
+
+nav{
+	float: right;
+	padding: 15px;
+}
+
+nav a{
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+.navbar-gmail-link, .navbar-images-link{
+	color: black;
+	font-size: 12px;
+}
+
+.navbar-gmail-link:hover, .navbar-images-link:hover{
+	color: silver;
+	text-decoration: underline;
+}
+
+.main-content-container{
+	text-align: center;
+	padding-top: 10%;
+}
+
+.main-content-container input{
+	width: 35%;
+	height: 35px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: silver;
+	border-width: 1px;
+	padding: 15px;
+}
+
+.main-content-container button{
+	background-color: #D3D3D9;
+	color: grey;
+	border-width: 1px;
+	border-radius: 3px;
+	padding: 10px 15px;
+	margin: 20px 5px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+
+.main-content-container button:hover{
+	border-radius: 3px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	color: black;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+
+.main-content-container a{
+	color: blue;
+	text-decoration: none;
+}
+
+.main-content-container a:hover{
+	text-decoration: underline;
+}
+
+footer {
+	background-color: lightgrey;
+	padding: 0 5px;
+	color: grey;
+}
+
+footer a{
+	text-decoration: none;
+	color: grey;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
